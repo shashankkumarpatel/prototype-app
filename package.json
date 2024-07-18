@@ -1,0 +1,72 @@
+{
+  "name": "prototype-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^32.0.2",
+    "@ag-grid-community/core": "^32.0.2",
+    "@ag-grid-community/react": "^32.0.2",
+    "@emotion/css": "^11.11.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@spglobal/css-components": "^9.4.0",
+    "@spglobal/koi-grid": "^9.4.0",
+    "@spglobal/koi-header": "^9.4.0",
+    "@spglobal/koi-helpers": "^9.4.0",
+    "@spglobal/koi-icons": "^9.4.0",
+    "@spglobal/koi-mini-map": "^9.4.0",
+    "@spglobal/koi-select": "^9.4.0",
+    "@spglobal/react-components": "^9.4.0",
+    "@spglobal/tokens": "^9.4.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.5.12",
+    "@types/jquery": "^3.5.30",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "dockview": "^1.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "highcharts": "^11.4.6",
+    "highcharts-react-official": "^3.2.1",
+    "html-react-parser": "^5.1.10",
+    "i18next": "^23.12.1",
+    "jquery": "^3.7.1",
+    "rc-slider": "^10.6.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^14.1.2",
+    "react-router-dom": "^6.24.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "Collection of Prototype",
+  "main": "index.tsx",
+  "license": "MIT"
+}

@@ -1,0 +1,434 @@
+{
+  "homePage": [
+    {
+      "id": "homepage",
+      "href": "#homepage",
+      "title": "Homepage",
+      "label": "HOME PAGE",
+      "buttonText": "Set current page as homepage"
+    }
+  ],
+  "recentLinks": [
+    {
+      "title": "Dashboard with Live Charts and Tables",
+      "href": "/login#dashboard",
+      "id": "Link1"
+    },
+    {
+      "id": "Link2",
+      "title": "Investigation and Investing Program for Development to Regions: I need short worlds fo testing Italy, Belgium, China, India, Cats, Dogs, Doves, Worlds, Bottles, Money",
+      "href": "/countries#countryCode=it"
+    },
+    {
+      "id": "Link3",
+      "title": "Do Not Invest Here - Just For Monitoring of Awful Economic",
+      "href": "/countries#countryCode=cc"
+    },
+    {
+      "id": "Link4",
+      "title": "TheRoofIsTheRoofTheOnFireTheRoofIsTheRoofTheOnFireTheRoofIsTheRoofTheOnFireTheRoofIsTheRoofTheOnFireTheRoofIsTheRoofTheOnFireTheRoofIsTheRoofTheOnFire",
+      "href": "/countries#countryCode=ce"
+    },
+    {
+      "id": "Link5",
+      "title": "oneworlditemnotooltip",
+      "href": "/countries#countryCode=cr"
+    },
+    {
+      "id": "Link6",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry-s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "href": "/countries#countryCode=ci"
+    },
+    {
+      "id": "Link7",
+      "title": "This link opens in a new browser's tab",
+      "href": "/countries#countryCode=co"
+    }
+  ],
+  "listOfFolders": [
+    {
+      "id": "shortcut-item-1-empty-tab",
+      "title": "Empty Shortcuts List",
+      "href": null,
+      "links": []
+    },
+    {
+      "id": "Tab1",
+      "title": "Investigation and Investing Program for Development to Regions: I need short worlds for testing Italy, Belgium, China, India, Cats, Dogs, Doves, Worlds, Bottles, Money",
+      "href": null,
+      "links": [
+        {
+          "id": "shortcut-item-1-tab-1",
+          "title": "Microsoft Corporation Recent Documents",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-2-tab-1",
+          "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry-s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-3-tab-1",
+          "title": "oneworlditemnotooltip",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-4-tab-1",
+          "title": "Apple Inc. - Corporate Profile",
+          "href": "/end#front"
+        }
+      ]
+    },
+    {
+      "id": "Tab2",
+      "title": "Corporate Profile",
+      "href": null,
+      "readOnly": true,
+      "links": [
+        {
+          "id": "shortcut-item-1-tab-2",
+          "title": "Recaps",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-2-tab-2",
+          "title": "News and Analysis",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-3-tab-2",
+          "title": "Research",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-4-tab-2",
+          "title": "Syndicated Content",
+          "href": "/end#front"
+        }
+      ]
+    },
+    {
+      "id": "Tab3",
+      "title": "oneworlditemnotooltip",
+      "href": null,
+      "links": [
+        {
+          "id": "shortcut-item-1-tab-3",
+          "title": "Blogs",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-2-tab-3",
+          "title": "News Archive",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-3-tab-3",
+          "title": "Key Developments",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-4-tab-3",
+          "title": "Newswire",
+          "href": "/end#front"
+        }
+      ]
+    },
+    {
+      "id": "Tab4",
+      "title": "Lorem Ipsum has been the industry-s standard dummy text ever since the 1500s, galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "href": null,
+      "links": [
+        {
+          "id": "shortcut-item-1-tab-4",
+          "title": "Issues in Focus",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-2-tab-4",
+          "title": "Publications",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-3-tab-4",
+          "title": "Fixed Income",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-4-tab-4",
+          "title": "Bankruptcy & Distressed",
+          "href": "/end#front"
+        }
+      ]
+    },
+    {
+      "id": "Tab5",
+      "title": "TheRoofIsTheRoofTheOnFireTheRoofIsTheRoofTheOnFireTheRoofIsTheRoofTheOnFireTheRoofIsTheRoofTheOnFireTheRoofIsTheRoofTheOnFireTheRoofIsTheRoofTheOnFire",
+      "href": null,
+      "links": [
+        {
+          "id": "shortcut-item-1-tab-5",
+          "title": "Financials",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-2-tab-5",
+          "title": "Real Estate",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-3-tab-5",
+          "title": "Energy & Utilities",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-4-tab-5",
+          "title": "Materials 1",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-5-tab-5",
+          "title": "Materials 2",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-6-tab-5",
+          "title": "Materials 3",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-7-tab-5",
+          "title": "Materials 4",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-8-tab-5",
+          "title": "Materials 5",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-9-tab-5",
+          "title": "Materials 6",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-10-tab-5",
+          "title": "Materials 7",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-11-tab-5",
+          "title": "Materials 8",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-12-tab-5",
+          "title": "Materials 9",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-13-tab-5",
+          "title": "Materials 10",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-14-tab-5",
+          "title": "Materials 11",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-15-tab-5",
+          "title": "Materials 12",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-16-tab-5",
+          "title": "Materials 13",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-17-tab-5",
+          "title": "Materials 14",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-18-tab-5",
+          "title": "Materials 15",
+          "href": "/end#front"
+        }
+      ]
+    },
+    {
+      "id": "Tab6",
+      "title": "veryLongShortcutsList",
+      "href": null,
+      "links": [
+        {
+          "id": "shortcut-item-1-tab-6",
+          "title": "Materials 01",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-2-tab-6",
+          "title": "Materials 02",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-3-tab-6",
+          "title": "Materials 03",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-4-tab-6",
+          "title": "Materials 1",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-5-tab-6",
+          "title": "Materials 2",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-6-tab-6",
+          "title": "Materials 3",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-7-tab-6",
+          "title": "Materials 4",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-8-tab-6",
+          "title": "Materials 5",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-9-tab-6",
+          "title": "Materials 6",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-10-tab-6",
+          "title": "Materials 7",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-11-tab-6",
+          "title": "Materials 8",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-12-tab-6",
+          "title": "Materials 9",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-13-tab-6",
+          "title": "Materials 10",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-14-tab-6",
+          "title": "Materials 11",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-15-tab-6",
+          "title": "Materials 12",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-16-tab-6",
+          "title": "Materials 13",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-17-tab-6",
+          "title": "Materials 14",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-18-tab-6",
+          "title": "Materials 15",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-19-tab-6",
+          "title": "Materials 19",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-20-tab-6",
+          "title": "Materials 20",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-21-tab-6",
+          "title": "Materials 21",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-22-tab-6",
+          "title": "Materials 22",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-23-tab-6",
+          "title": "Materials 23",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-24-tab-6",
+          "title": "Materials 24",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-25-tab-6",
+          "title": "Materials 25",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-26-tab-6",
+          "title": "Materials 26",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-27-tab-6",
+          "title": "Materials 27",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-28-tab-6",
+          "title": "Materials 28",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-29-tab-6",
+          "title": "Materials 29",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-30-tab-6",
+          "title": "Materials 30",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-31-tab-6",
+          "title": "Materials 31",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-32-tab-6",
+          "title": "Materials 32",
+          "href": "/end#front"
+        },
+        {
+          "id": "shortcut-item-33-tab-6",
+          "title": "Materials 33",
+          "href": "/end#front"
+        }
+      ]
+    }
+  ]
+}
