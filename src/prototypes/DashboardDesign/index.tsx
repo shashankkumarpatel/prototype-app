@@ -10,7 +10,7 @@ import {
 } from 'dockview';
 import 'dockview/dist/styles/dockview.css';
 import Highcharts from 'highcharts';
-import HighchartsReact from 'highcharts-react-official';
+import { HighchartsReact } from 'highcharts-react-official';
 
 import '@spglobal/css-components/dist/css/koi-highcharts.css';
 import { AgGrid } from '@spglobal/koi-grid';
@@ -24,7 +24,6 @@ import {
   AccordionItem,
   Button,
   ButtonRow,
-  ChoiceList,
   ComponentSize,
   ContextMenu,
   DropDown,
@@ -455,7 +454,7 @@ const components = {
           },
         ]}
         mapContainerProps={{
-          center: [-20.01711492578315, 119.96014605648283],
+          center: [-20, 119],
           height: 300,
           width: 800,
           zoom: 1,
@@ -794,37 +793,11 @@ const DndDockview = (props: {
             </h3>
 
             <div className="spg-pl-sm ">
-              <ChoiceList
-                className="spg-d-flex spg-flex-column"
-                isCheckIcon={false}
-                options={[
-                  {
-                    label: <DraggableElement title="NewsWire" />,
-                    selected: true,
-                    value: '1',
-                  },
-                  {
-                    label: <DraggableElement title="Events" />,
-                    value: '2',
-                  },
-                  {
-                    label: <DraggableElement title="Quote" />,
-                    value: '3',
-                  },
-                  {
-                    label: <DraggableElement title="Maps" />,
-                    value: '4',
-                  },
-                  {
-                    label: <DraggableElement title="Chart" />,
-                    value: '5',
-                  },
-                ]}
-                skeletonConfig={{
-                  animation: true,
-                  loading: false,
-                }}
-              />
+              <DraggableElement title="NewsWire" />
+              <DraggableElement title="Events" />
+              <DraggableElement title="Quote" />
+              <DraggableElement title="Maps" />
+              <DraggableElement title="Chart" />
             </div>
           </>
         )}
