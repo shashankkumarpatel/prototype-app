@@ -1,4 +1,4 @@
-import React, { FC, useMemo, useRef, useState } from 'react';
+import React, { FC, useEffect, useRef, useState } from 'react';
 import { ICellRendererParams } from '@ag-grid-community/core';
 import {
   DockviewApi,
@@ -722,7 +722,7 @@ const DndDockview = (props: {
     return true;
   };
 
-  useMemo(() => {
+  useEffect(() => {
     if (defaultTemplateList?.length > 0) {
       defaultTemplateList.forEach((element: any) => {
         const data: any = element;
