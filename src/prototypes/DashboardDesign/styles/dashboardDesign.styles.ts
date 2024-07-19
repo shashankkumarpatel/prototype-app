@@ -311,3 +311,29 @@ export const ListNameWrapper = styled.div`
     display: flex;
   }
 `;
+
+export const DraggableList = styled.div`
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: wrap;
+  margin-bottom: var(--size-space-lg);
+
+  button {
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: var(--size-radius-3);
+    font-size: var(--size-font-3);
+    background-color: var(--color-core-gray);
+    margin-right: var(--size-space-0);
+    cursor: pointer;
+    user-select: none;
+    min-height: var(--size-height-base);
+    padding: var(--size-space-0) var(--size-space-md);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: var(--size-space-md);
+    margin-bottom: var(--size-space-sm);
+    width: fit-content;
+  }
+`;

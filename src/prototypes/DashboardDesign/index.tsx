@@ -48,6 +48,7 @@ import './styles/dashboard.css';
 import { EllipseIcon, WidgetsIcon } from './utils/dashboardDesignIcon';
 import ManageDashboard, { ITemplateData } from './components/ManageDashboard';
 import { GeneralLayout } from '../../layouts';
+import { DraggableList } from './styles/dashboardDesign.styles';
 
 const CustomTabRenderer = (e: IDockviewPanelProps) => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -793,11 +794,23 @@ const DndDockview = (props: {
             </h3>
 
             <div className="spg-pl-sm ">
-              <DraggableElement title="NewsWire" />
-              <DraggableElement title="Events" />
-              <DraggableElement title="Quote" />
-              <DraggableElement title="Maps" />
-              <DraggableElement title="Chart" />
+              <DraggableList>
+                <Button>
+                  <DraggableElement title="NewsWire" />
+                </Button>
+                <Button>
+                  <DraggableElement title="Events" />
+                </Button>
+                <Button>
+                  <DraggableElement title="Quote" />
+                </Button>
+                <Button>
+                  <DraggableElement title="Maps" />
+                </Button>
+                <Button>
+                  <DraggableElement title="Chart" />
+                </Button>
+              </DraggableList>
             </div>
           </>
         )}
