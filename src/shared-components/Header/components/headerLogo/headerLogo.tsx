@@ -1,5 +1,4 @@
-/* eslint-disable deprecation/deprecation */
-import React from 'react';
+import React, { JSX } from 'react';
 
 import { DISPLAYNAME_PREFIX } from '@spglobal/koi-helpers';
 import { ISkeletonConfig, Link, Skeleton } from '@spglobal/react-components';

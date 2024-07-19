@@ -1,5 +1,3 @@
-/* eslint-disable import/no-unresolved */
-/* eslint-disable @typescript-eslint/no-empty-function */
 import classNames from 'classnames';
 import Slider from 'rc-slider';
 import * as React from 'react';
@@ -166,7 +164,7 @@ const PrototypeHeader: any = ({
           </GlobalHeaderNavMobileWrapper>
           <TopNav
             isGlobalHeaderStyles
-            isEditEnabled={true}
+            isEditEnabled={false}
             mobileNavHeader={<MobileNavHeader />}
             menuItemsOrder={menuItemsOrder}
             onMenuItemsOrderChange={setMenuItemsOrder}
@@ -291,34 +289,6 @@ const PrototypeHeader: any = ({
                   <TopNavGroupLinkItem href={'#'}>Investment & Market Research</TopNavGroupLinkItem>
                   <TopNavGroupLinkItem href={'#'}>
                     Market Intelligence Research Library
-                  </TopNavGroupLinkItem>
-                </TopNavDropDownGroup>
-              </TopNavDropDownColumn>
-            </TopNavMenuItem>
-
-            <TopNavMenuItem title={'Screener'} id={'4'} isGlobalHeaderStyles>
-              <TopNavDropDownColumn>
-                <TopNavDropDownGroup>
-                  <TopNavGroupLinkItem href={'#'}>Companies</TopNavGroupLinkItem>
-                  <TopNavGroupLinkItem href={'#'}>Key Developments</TopNavGroupLinkItem>
-                  <TopNavGroupLinkItem href={'#'}>
-                    Regulated Depositories (U.S.)
-                  </TopNavGroupLinkItem>
-                  <TopNavGroupLinkItem href={'#'}>
-                    Insurance Statutory Financials (U.S.)
-                  </TopNavGroupLinkItem>
-                  <TopNavGroupLinkItem href={'#'}>
-                    Reinsurance Relationships (U.S.)
-                  </TopNavGroupLinkItem>
-                  <TopNavGroupLinkItem href={'#'}>
-                    Insurance Product Filings (U.S.)
-                  </TopNavGroupLinkItem>
-                  <TopNavGroupLinkItem href={'#'}>Energy Companies by State</TopNavGroupLinkItem>
-                  <TopNavGroupLinkItem href={'#'}>Regulated Energy Companies</TopNavGroupLinkItem>
-                  <TopNavGroupLinkItem href={'#'}>Wireline Regulatory (ARMIS)</TopNavGroupLinkItem>
-                  <TopNavGroupLinkItem href={'#'}>Companies (Classic)</TopNavGroupLinkItem>
-                  <TopNavGroupLinkItem href={'#'}>
-                    Specialty Financial Services (U.S.)
                   </TopNavGroupLinkItem>
                 </TopNavDropDownGroup>
               </TopNavDropDownColumn>
@@ -690,7 +660,7 @@ const PrototypeHeader: any = ({
                 </TopNavDropDownGroup>
               </TopNavDropDownColumn>
             </TopNavMenuItem>
-            <TopNavMenuItem title={'ESG'} id={'9'} isGlobalHeaderStyles>
+            {/* <TopNavMenuItem title={'ESG'} id={'9'} isGlobalHeaderStyles>
               <TopNavDropDownColumn>
                 <TopNavDropDownGroup>
                   <TopNavGroupLinkItem href={'#'}>ESG Home</TopNavGroupLinkItem>
@@ -729,7 +699,7 @@ const PrototypeHeader: any = ({
             </TopNavLinkItem>
             <TopNavLinkItem isLock href={'#'} id={'example4'} isGlobalHeaderStyles>
               Example 4
-            </TopNavLinkItem>
+            </TopNavLinkItem> */}
           </TopNav>
         </MobileNavWrapper>
       </GlobalHeaderContent>
@@ -1107,7 +1077,9 @@ const PrototypeHeader: any = ({
                   id="custom-id"
                   className="spg-px-xs"
                   inline
-                  onChange={function noRefCheck() {}}
+                  onChange={function (): void {
+                    //onChange function called
+                  }}
                 >
                   <Radio label="Default" id="radio1" />
                   <Radio label="Private companies" id="radio2" />
@@ -1346,8 +1318,8 @@ const PrototypeHeader: any = ({
                     isParentNodeTreeDisplay
                     isSearchable
                     mobileMenuClassName="mobile-menu-className"
-                    onChange={function noRefCheck() {}}
-                    onParentSelectChange={function noRefCheck() {}}
+                    // onChange={function noRefCheck() {}}
+                    // onParentSelectChange={function noRefCheck() {}}
                     options={[
                       {
                         value: '0',

@@ -1,4 +1,3 @@
-/* eslint-disable deprecation/deprecation */
 import * as React from 'react';
 
 export const useIsHeaderFixed = (isStatic: boolean): boolean => {
