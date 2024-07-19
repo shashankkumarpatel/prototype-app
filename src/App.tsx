@@ -1,8 +1,8 @@
-import React from "react";
-import "./App.css";
-import { RouteConfig } from "./configs/routeConfig";
-import { BrowserRouter } from "react-router-dom";
-import { ThemeProvider } from "@emotion/react";
+import React from 'react';
+import './App.css';
+import { RouteConfig } from './configs/routeConfig';
+import { BrowserRouter } from 'react-router-dom';
+import { ThemeProvider } from '@emotion/react';
 
 const themeDetails = {
   activeTheme: 'new-gen',

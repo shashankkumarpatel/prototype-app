@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-/* eslint-disable @typescript-eslint/no-empty-function */
-/* eslint-disable import/no-named-as-default */
 import React, { FC, useMemo, useRef, useState } from 'react';
 import { ICellRendererParams } from '@ag-grid-community/core';
 import {
@@ -458,7 +455,6 @@ const components = {
           },
         ]}
         mapContainerProps={{
-          // @ts-ignore;
           center: [-20.01711492578315, 119.96014605648283],
           height: 300,
           width: 800,
@@ -611,7 +607,6 @@ const components = {
             },
           ]}
           hasHeader={false}
-          onSelectRow={() => {}}
         />
 
         <TableGrid
@@ -657,7 +652,6 @@ const components = {
             },
           ]}
           hasHeader={false}
-          onSelectRow={() => {}}
         />
       </div>
     );
@@ -805,28 +799,23 @@ const DndDockview = (props: {
                 isCheckIcon={false}
                 options={[
                   {
-                    // @ts-ignore;
                     label: <DraggableElement title="NewsWire" />,
                     selected: true,
                     value: '1',
                   },
                   {
-                    // @ts-ignore;
                     label: <DraggableElement title="Events" />,
                     value: '2',
                   },
                   {
-                    // @ts-ignore;
                     label: <DraggableElement title="Quote" />,
                     value: '3',
                   },
                   {
-                    // @ts-ignore;
                     label: <DraggableElement title="Maps" />,
                     value: '4',
                   },
                   {
-                    // @ts-ignore;
                     label: <DraggableElement title="Chart" />,
                     value: '5',
                   },

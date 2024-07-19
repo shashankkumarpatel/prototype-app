@@ -60,8 +60,6 @@ import {
   TopNavMenuItem,
   VerticalTabItem,
   VerticalTabs,
-} from '@spglobal/koi-top-nav';
-import {
   ShortcutEntity,
   ShortcutItem,
   ShortcutLabeledItem,

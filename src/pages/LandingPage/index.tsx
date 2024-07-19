@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 import { Button, Card, CardBody, CardHeader, H1 } from '@spglobal/react-components';
 import { Purpose } from '@spglobal/koi-helpers';
 import { PrototypesArray } from './utils/data';
@@ -28,7 +28,8 @@ const LandingPage: FC = () => {
                         <Button
                           purpose={Purpose.PRIMARY}
                           aria-label="Load more"
-                          onClick={() => navigate(prototype.redirectionLink)} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                        >
+                          onClick={() => navigate(prototype.redirectionLink)}
+                        >
                           More Details
                         </Button>
                       </CardBody>

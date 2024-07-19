@@ -2,19 +2,22 @@ module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
   extends: [
-    'eslint:recommended',
-    'plugin:import/recommended',
-    'plugin:import/typescript',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:import/typescript',
+    'plugin:react-hooks/recommended',
   ],
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'deprecation'],
   env: {
     browser: true,
     es6: true,
   },
   parserOptions: {
+    project: './tsconfig.json',
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
@@ -22,47 +25,24 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
+      files: ['**/*.tsx'],
       rules: {
         'react/prop-types': 'off', // Will be checked by TypeScript itself (https://github.com/yannickcr/eslint-plugin-react/issues/2353)
-        'no-case-declarations': 'off',
-        'no-prototype-builtins': 'off',
-        'no-named-as-default': 'off',
-        '@typescript-eslint/no-var-requires': 'off',
-        'react/react-in-jsx-scope': 'off',
-        'react/jsx-uses-react': 'off',
-        'react/no-unknown-property': ['error', { ignore: ['css'] }],
-      },
-    },
-    {
-      files: ['**/jest.*.ts', '**/*.spec.ts', '**/*.spec.tsx', '**/*.test.tsx'],
-      env: {
-        jest: true,
-        node: true,
-      },
-      rules: {
-        '@typescript-eslint/no-explicit-any': 'off',
-        '@typescript-eslint/no-non-null-assertion': 'off',
-      },
-    },
-    {
-      files: ['**/*.stories.tsx'],
-      settings: {
-        'import/core-modules': ['@storybook/react'],
-        'import/internal-regex': '^@spglobal/',
-      },
-    },
-    {
-      files: ['**/.eslintrc.js', '**/scripts/*.js', '**/webpack.config.js'],
-      env: {
-        node: true,
       },
     },
   ],
   settings: {
     react: {
-      pragma: 'React', // Pragma to use, default to "React"
       version: 'detect',
     },
+    'import/resolver': {
+      typescript: {},
+    },
+  },
+  rules: {
+    'import/default': 'off',
+    'import/no-named-as-default-member': 'off',
+    'import/no-unresolved': [2, { ignore: ['remote.*/'] }],
+    'deprecation/deprecation': 'error',
   },
 };

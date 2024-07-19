@@ -46,4 +46,3 @@ export const FooterLinkWrapper = styled(Link)`
     color: var(--footer-color);
   }
 `;
-
