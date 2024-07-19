@@ -14,8 +14,7 @@ const GeneralLayout = (props: ILayout) => {
   const [displayDensity, setDisplayDensity] = React.useState<Size.SMALL | Size.MEDIUM | Size.LARGE>(
     Size.MEDIUM
   );
-  const [appearance, setAppearance] = React.useState(false);
-  const [fontSize, setFontSize] = React.useState(16);
+  const [appearance, setAppearance] = React.useState(true);
 
   return (
     <>
@@ -32,11 +31,6 @@ const GeneralLayout = (props: ILayout) => {
           setDisplayDensity={(pre: Size.SMALL | Size.MEDIUM | Size.LARGE) => {
             $('body').attr('displayDensity', pre);
             return setDisplayDensity(pre);
-          }}
-          fontSize={fontSize}
-          setFontSize={(pre: any) => {
-            $('html').css('font-size', pre + 'px');
-            return setFontSize(pre);
           }}
         />
       )}
