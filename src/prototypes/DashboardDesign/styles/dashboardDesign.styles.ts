@@ -336,4 +336,10 @@ export const DraggableList = styled.div`
     margin-bottom: var(--size-space-sm);
     width: fit-content;
   }
+
+  .${DARK} & {
+    button {
+      background: var(--color-base-gray-80);
+    }
+  }
 `;

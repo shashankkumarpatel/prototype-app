@@ -23,6 +23,7 @@ import {
   accordionAppearance,
   AccordionItem,
   Button,
+  ButtonPurpose,
   ButtonRow,
   ComponentSize,
   ContextMenu,
@@ -792,22 +793,21 @@ const DndDockview = (props: {
             <h3 className="spg-heading spg-heading spg-heading--xsmall spg-mt-md spg-pb-sm spg-pl-sm">
               Widgets
             </h3>
-
             <div className="spg-pl-sm ">
               <DraggableList>
-                <Button>
+                <Button purpose={ButtonPurpose.SECONDARY}>
                   <DraggableElement title="NewsWire" />
                 </Button>
-                <Button>
+                <Button purpose={ButtonPurpose.SECONDARY}>
                   <DraggableElement title="Events" />
                 </Button>
-                <Button>
+                <Button purpose={ButtonPurpose.SECONDARY}>
                   <DraggableElement title="Quote" />
                 </Button>
-                <Button>
+                <Button purpose={ButtonPurpose.SECONDARY}>
                   <DraggableElement title="Maps" />
                 </Button>
-                <Button>
+                <Button purpose={ButtonPurpose.SECONDARY}>
                   <DraggableElement title="Chart" />
                 </Button>
               </DraggableList>
