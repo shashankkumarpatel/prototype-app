@@ -1,0 +1,33 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": 3,
+        "targets": "> 0.2%, not dead, ie >= 11"
+      }
+    ],
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": "current node"
+          }
+        ],
+        [
+          "@babel/preset-react",
+          {
+            "runtime": "automatic",
+            "importSource": "@emotion/react"
+          }
+        ]
+      ]
+    }
+  }
+}
