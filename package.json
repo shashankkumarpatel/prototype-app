@@ -78,6 +78,7 @@
     "@spglobal/koi-helpers": "^9.3.0-alpha.37",
     "@spglobal/koi-icons": "^9.3.0-alpha.37",
     "@spglobal/koi-mini-map": "^9.3.0-alpha.37",
+    "@spglobal/koi-pagination": "^9.3.0-alpha.37",
     "@spglobal/koi-select": "^9.3.0-alpha.37",
     "@spglobal/koi-top-nav": "^9.3.0-alpha.37",
     "@spglobal/loggingservice": "^1.0.8",
