@@ -852,6 +852,7 @@ const DashboardDesign: FC = () => {
   const [editTabTitle, setEditTabTitle] = useState<string>('');
   const [showManageDashboardModal, setShowManageDashboardModal] = useState<boolean>(false);
   const [defaultTemplateList, setDefaultTemplateList] = useState<any>(null);
+  const [defaultTemplateTabId, setDefaultTemplateTabId] = useState<any>(null);
 
   const totalTabsRef = useRef(tabs.length);
 
@@ -921,6 +922,7 @@ const DashboardDesign: FC = () => {
   };
 
   const handleOpenTemplate = (templateData: ITemplateData) => {
+    setDefaultTemplateTabId(activeTab);
     setDefaultTemplateList(templateData);
   };
 
@@ -991,7 +993,10 @@ const DashboardDesign: FC = () => {
               height: 'calc(100vh - 100px)',
             }}
           >
-            <DndDockview renderVisibleOnly={true} defaultTemplateList={defaultTemplateList} />
+            <DndDockview
+              renderVisibleOnly={true}
+              defaultTemplateList={defaultTemplateTabId === tab.id ? defaultTemplateList : []}
+            />
           </div>
         ))}
       </div>
