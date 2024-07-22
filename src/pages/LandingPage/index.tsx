@@ -11,7 +11,7 @@ const LandingPage: FC = () => {
 
   return (
     <GeneralLayout>
-      <div style={{ height: 'calc(100vh - 140px)' }}>
+      <div style={{ minHeight: 'calc(100vh - 133px)' }}>
         <div className="spg-layout__body">
           <div className="spg-layout__main">
             <main className="spg-layout__content">

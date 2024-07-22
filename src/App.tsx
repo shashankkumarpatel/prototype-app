@@ -1,4 +1,7 @@
 import React, { useLayoutEffect } from 'react';
+/* Init Config i18n and locale manager */
+import './configs/i18nConfig';
+import './i18n/localeManager';
 /* KOI Tokens */
 import '@spglobal/tokens/dist/web/tokens.css';
 /* KOI Library utility styles */

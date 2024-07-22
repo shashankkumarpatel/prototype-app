@@ -96,7 +96,7 @@ const profileOptions = [
 ];
 
 const defaultMenuItemsOrder: ITopMenuItemsOrder = {
-  activeItems: ['999', 'dashboard', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'sitemap'],
+  activeItems: ['999', '1', '2', '3', 'dashboard', '4', '5', '6', '7', '8', '9', '10', 'sitemap'],
   inactiveItems: [],
 };
 
@@ -240,7 +240,6 @@ const PrototypeHeader: any = ({
             <TopNavMenuItem
               id={'1'}
               title={'Apps'}
-              active
               isGlobalHeaderStyles
               dropDownMenuRole={'menu'}
               dropDownMenuAriaOwns={'Apps'}
@@ -301,7 +300,7 @@ const PrototypeHeader: any = ({
                 </TopNavDropDownGroup>
               </TopNavDropDownColumn>
             </TopNavMenuItem>
-            <TopNavMenuItem isLock title={'News'} id={'2'} isGlobalHeaderStyles>
+            <TopNavMenuItem title={'News'} id={'2'} isGlobalHeaderStyles>
               <TopNavDropDownColumn>
                 <TopNavDropDownGroup title={'News Home'}>
                   <TopNavGroupLinkItem href={'#'}>All Sector News</TopNavGroupLinkItem>
@@ -391,7 +390,7 @@ const PrototypeHeader: any = ({
                 </TopNavDropDownGroup>
               </TopNavDropDownColumn>
             </TopNavMenuItem>
-            <TopNavLinkItem active isLock href={'#'} id={'dashboard'} isGlobalHeaderStyles>
+            <TopNavLinkItem active href={'#'} id={'dashboard'} isGlobalHeaderStyles>
               Dashboard
             </TopNavLinkItem>
             <TopNavMenuItem title={'Screener'} id={'4'} isGlobalHeaderStyles>

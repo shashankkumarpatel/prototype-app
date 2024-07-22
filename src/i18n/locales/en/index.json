@@ -1,0 +1,14 @@
+{
+  "shortcutItem": {
+    "editIconBtnTitle": "Rename",
+    "deleteIconBtnTitle": "Delete",
+    "saveIconBtnTitle": "Save",
+    "cancelIconBtnTitle": "Cancel"
+  },
+  "topNav": {
+    "additionalMenuItems": "Additional Menu Items",
+    "customizemainMenu": "CUSTOMIZE MAIN MENU",
+    "dragLabel": "Drag items between the fields below to add or remove them from your navigation.",
+    "currentLabel": "Current Menu Items"
+  }
+}
