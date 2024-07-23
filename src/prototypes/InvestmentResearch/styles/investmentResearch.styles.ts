@@ -227,6 +227,7 @@ export const SearchHistoryListContainer = styled.div`
     p {
       font-size: var(--size-font-2);
       margin: var(--size-space-0);
+      margin-top: 2px;
       line-height: 13.5px;
     }
 

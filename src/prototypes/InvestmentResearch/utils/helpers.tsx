@@ -111,7 +111,7 @@ const SearchHistoryList = [
     results: '251',
   },
   {
-    title: '“Solid State Batteries” + Sector:Energy + Last 30 Days',
+    title: '“Solid State Batteries” + Sector:Energy + Custom Range:  3/21/22 - 6/8/23',
     duration: '1 hour ago',
     results: '12,409',
   },
